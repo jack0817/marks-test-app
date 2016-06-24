@@ -9,6 +9,6 @@ namespace MarksTestApp
     public class Person
     {
         public int Age;
-
+        public DateTime BirthDate;
     }
 }
