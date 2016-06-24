@@ -10,6 +10,7 @@ namespace MarksTestApp
     {
         static void Main(string[] args)
         {
+            Danny.Test();
             //int myage = 36;
             //float mypercentage = 5.2f;
             //double mysalary = 100.00;
@@ -37,6 +38,7 @@ namespace MarksTestApp
             }
 
             int[] values = { 4, 4, 4, 4, 3, 1234, 323, 1234123, 1234, 1234, 1, 2, 2, 3, 3, 3 };
+
             int[] printedValues = { };
 
             foreach (int v in values)
@@ -123,7 +125,9 @@ namespace MarksTestApp
                     Console.Read();
 
 
-            
+
+                }
+            }
         }
     }
 }

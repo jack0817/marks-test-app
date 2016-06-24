@@ -4,3 +4,9 @@ c:\users\mark\documents\visual studio 2015\Projects\MarksTestApp\MarksTestApp\bi
 c:\users\mark\documents\visual studio 2015\Projects\MarksTestApp\MarksTestApp\bin\Debug\MarksTestApp.pdb
 c:\users\mark\documents\visual studio 2015\Projects\MarksTestApp\MarksTestApp\obj\Debug\MarksTestApp.exe
 c:\users\mark\documents\visual studio 2015\Projects\MarksTestApp\MarksTestApp\obj\Debug\MarksTestApp.pdb
+C:\Projects\MarksTestApp\MarksTestApp\obj\Debug\MarksTestApp.csprojResolveAssemblyReference.cache
+C:\Projects\MarksTestApp\MarksTestApp\bin\Debug\MarksTestApp.exe.config
+C:\Projects\MarksTestApp\MarksTestApp\bin\Debug\MarksTestApp.exe
+C:\Projects\MarksTestApp\MarksTestApp\bin\Debug\MarksTestApp.pdb
+C:\Projects\MarksTestApp\MarksTestApp\obj\Debug\MarksTestApp.exe
+C:\Projects\MarksTestApp\MarksTestApp\obj\Debug\MarksTestApp.pdb
