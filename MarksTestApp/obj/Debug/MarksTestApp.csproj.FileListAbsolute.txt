@@ -9,3 +9,9 @@ C:\Projects\MarksTestApp\MarksTestApp\bin\Debug\MarksTestApp.exe
 C:\Projects\MarksTestApp\MarksTestApp\bin\Debug\MarksTestApp.pdb
 C:\Projects\MarksTestApp\MarksTestApp\obj\Debug\MarksTestApp.exe
 C:\Projects\MarksTestApp\MarksTestApp\obj\Debug\MarksTestApp.pdb
+C:\Users\Jack\Projects\MarksTestApp\MarksTestApp\bin\Debug\MarksTestApp.exe.config
+C:\Users\Jack\Projects\MarksTestApp\MarksTestApp\bin\Debug\MarksTestApp.exe
+C:\Users\Jack\Projects\MarksTestApp\MarksTestApp\bin\Debug\MarksTestApp.pdb
+C:\Users\Jack\Projects\MarksTestApp\MarksTestApp\obj\Debug\MarksTestApp.csprojResolveAssemblyReference.cache
+C:\Users\Jack\Projects\MarksTestApp\MarksTestApp\obj\Debug\MarksTestApp.exe
+C:\Users\Jack\Projects\MarksTestApp\MarksTestApp\obj\Debug\MarksTestApp.pdb
