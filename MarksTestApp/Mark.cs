@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MarksTestApp
 {
@@ -11,11 +7,11 @@ namespace MarksTestApp
         public static void Test()
         {
             var chessboard = new ChessBoard();
-            
-            var State = chessboard.GetState(0, 5);
-            Console.WriteLine("{0}", State);
+
+            var square = chessboard.GetSquare(7, 6);
+            Console.WriteLine("Square ID:    {0}", square.GetId());
+            Console.WriteLine("Square State: {0}", square.State);
             Console.ReadLine();
         }
     }
-
 }
