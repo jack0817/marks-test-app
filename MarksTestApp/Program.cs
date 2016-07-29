@@ -10,7 +10,8 @@ namespace MarksTestApp
     {
         static void Main(string[] args)
         {
-            Wendell.Test();
+            Mark.Test();
+            //Wendell.Test();
 
             //int myage = 36;
             //float mypercentage = 5.2f;
