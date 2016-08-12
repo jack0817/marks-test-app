@@ -16,11 +16,21 @@ namespace MarksTestApp
         public string Identifier { get; set; }
         public SquareState State { get; }
 
+        /// <summary>
+        /// Ctor
+        /// Have no return type, Ctors have the same name as their class
+        /// </summary>
+        /// <param name="parentColumn"></param>
         public ChessBoardSquare(ChessBoardColumn parentColumn)
         {
             this.ParentColumn = parentColumn;
         }
 
+        /// <summary>
+        /// Method
+        /// ALways have a return type
+        /// </summary>
+        /// <returns></returns>
         public string GetId()
         {
             return string.Format("{0}{1}", this.ParentColumn.Identifier, this.Identifier);
@@ -32,6 +42,10 @@ namespace MarksTestApp
         public string Identifier { get; set; }
         public List<ChessBoardSquare> Squares { get; }
   
+        /// <summary>
+        /// Ctor
+        /// </summary>
+        /// <param name="numSquares"></param>
         public ChessBoardColumn(int numSquares)
         {
             this.Squares = new List<ChessBoardSquare>();
@@ -45,9 +59,9 @@ namespace MarksTestApp
     }
 
     public class ChessBoard
-    {
-        private const int NUM_COLUMNS = 8;
-        private const int NUM_ROWS = 8;
+    {   
+        public const int NUM_COLUMNS = 8;
+        public const int NUM_ROWS = 8;
 
         public List<ChessBoardColumn> Columns { get; }
 
@@ -57,7 +71,7 @@ namespace MarksTestApp
         public ChessBoard()
         {
             this.Columns = new List<ChessBoardColumn>();
-            this.buildBoard();
+            this.BuildBoard();
         }
 
         public ChessBoardSquare GetSquare(int col, int row)
@@ -79,7 +93,7 @@ namespace MarksTestApp
         /// <summary>
         /// Method 
         /// </summary>
-        private void buildBoard()
+        public void BuildBoard()
         {
             for (int i = 0; i < NUM_COLUMNS; i++)
             {
